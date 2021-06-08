@@ -18,7 +18,7 @@ while c < col_choice_square:
 
 print(empty)
 
-while r < row_choice_square:
+while r < row_choice_square - 1: 
     print(empty)
     r += 1
 
@@ -33,3 +33,4 @@ def print_board(rectangle_x):
     print(" ".join(row))
 
 print(print_board(rectangle_x))
+
